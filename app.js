@@ -54,7 +54,9 @@ app.post("/iot",function(req,res){
     });
 })
 
-const port = process.env.PORT || 3001;
-app.listen(port,function(){
-    console.log("node server is running")
-})
+// const port = process.env.PORT || 3001;
+// app.listen(port,function(){
+//     console.log("node server is running")
+// })
+
+app.listen(process.env.PORT || 5000)
